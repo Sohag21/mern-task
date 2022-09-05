@@ -69,11 +69,6 @@ const Dashboard = () => {
         <div className="w-full mx-4 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-4 rounded">
           <div className='flex justify-between justify-center items-center mt-4'>
             <p className="font-semibold text-xl">Top 15 users by usage time(Drag and Drop Row to  reorder them)</p>
-            <button
-              type="button"
-              style={{ backgroundColor: currentColor }}
-              className="text-sm p-1 py-1 inline-block hover:drop-shadow-xl rounded"
-            >Add User</button>
           </div>
           <div className="mt-2">
             <CustomizableTable />
