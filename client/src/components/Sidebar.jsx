@@ -23,7 +23,7 @@ const Sidebar = () => {
       title: 'Dashboard',
       links: [
         {
-          name: 'Dashboard',
+          name: 'dashboard',
           icon: <BiCategoryAlt />,
         },
       ],

@@ -9,7 +9,7 @@ mongoose.connect(process.env.MONGODB)
 .then(console.log("Connected to MongoDB!"))
 .catch((err)=>console.log(err));
 
-
+// import data 
 const importData = async ()=>{
     try {
         await User.deleteMany();
@@ -22,6 +22,7 @@ const importData = async ()=>{
     }
 };
 
+// destroy data 
 const dataDestroy = async ()=>{
     await User.deleteMany();
     console.log("error");

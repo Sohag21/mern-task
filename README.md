@@ -17,7 +17,7 @@ Indexes help to solve queries more efficiently. Indexes are a special data struc
 
 Frontend: 
 I have made a reactjs dashboard based on backend response with light and dark mode. 
-Any user can’t see the dashboard without authentication. That's why  I have made a login page for users to login. I have used context API for future used auth user information and theme mode and colors information. Users can log out and destroy information from the dashboard.
+Any user can’t see the dashboard without authentication. That's why  I have made a login page for users to login. Login credentials is username and password. I have used context API for future used auth user information and theme mode and colors information. Users can log out and destroy information from the dashboard.
 After logged in users can see some information inside the dashboard. 
 I have created a line chart using chart js to view country wise users information from the backend endpoint(/api/users/country).
 I have created a Pie chart using chart js to view gender wise users information from the backend endpoint(/api/users/gender).

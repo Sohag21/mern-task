@@ -1,5 +1,5 @@
-import { Fragment, useContext, useRef, useState } from 'react'
-import { MailIcon, MenuIcon, PhoneIcon, XIcon } from '@heroicons/react/outline'
+import { useRef, useState } from 'react'
+import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 import { useStateContext } from '../contexts/ContextProvider';
 import axios from 'axios';
 
@@ -194,7 +194,7 @@ export default function Login() {
                     </dt>
                     <dd className="flex text-base text-teal-50">
                       <MailIcon className="flex-shrink-0 w-6 h-6 text-teal-200" aria-hidden="true" />
-                      <span className="ml-3">support@sellbee.com</span>
+                      <span className="ml-3">support@tier5.com</span>
                     </dd>
                   </dl>
 

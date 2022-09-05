@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { CustomizableTable, NewPie } from '../components';
 import LineChart from '../components/Charts/LineChart';
 import axios from 'axios';
-import { useStateContext } from '../contexts/ContextProvider';
 
 
 const Dashboard = () => {
-  const { currentColor } = useStateContext();
   const [usersGender, setUsersGender] = useState({});
   const [usersCountry, setUsersCountry] = useState({});
 
