@@ -1,1 +1,1 @@
-<!-- hi -->
+MERN stack assessment documentation
